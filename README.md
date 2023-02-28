@@ -1,5 +1,5 @@
 # C-Programs
-C Programming Practice
+## C Programming Practice
 
 **Program 1** - Variable basics, getting started with printf and scanf statements. Printing "Hello World".
 

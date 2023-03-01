@@ -14,12 +14,12 @@
       
 **Program 3** - Structures
             Introduction to structures - creating and using structures to store information. Programs written for:
-            A. creating a database of vehicles by storing information like:
-                1. name
-                2. manufacturing year
-                3. cost
-                4. category (high end (H) / middle (M) / low end (L))
-            B. making two functions: one takes user input, the other prints it.
+1. creating a database of vehicles by storing information like:
+   - name
+   - manufacturing year
+   - cost
+   - category (high end (H) / middle (M) / low end (L))
+   - making two functions: one takes user input, the other prints it.
  
  
 **Program 4** - Pointers

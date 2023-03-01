@@ -19,7 +19,7 @@
    - manufacturing year
    - cost
    - category (high end (H) / middle (M) / low end (L))
-   - making two functions: one takes user input, the other prints it.
+2. making two functions: one takes user input, the other prints it.
  
  
 **Program 4** - Pointers

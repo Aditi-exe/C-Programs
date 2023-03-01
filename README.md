@@ -24,8 +24,7 @@
  
 **Program 4** - Pointers
             Getting familiarized with pointers - differentiating them from regular variables; using * and & to denote pointers and memory address locations. Programs                                                      written for:
-            a. creating a variable, then creating a pointer to point to the memory address of the variable, printing both variable values
+1. creating a variable, then creating a pointer to point to the memory address of the variable, printing both variable values
             
             
-**Program 5** - Stacks
-            character not getting accepted in do-while loop, check and fix.
+**Program 5** - Stacks: character not getting accepted in do-while loop, check and fix.

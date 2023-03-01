@@ -21,7 +21,7 @@ int main()
 	
 	do
 	{	
-		printf("\nEnter 1, 2 or 3 to perform a stack operation from the list above: ");
+		printf("\nEnter 1, 2 or 3 to perform a stack operation from the list above, or 4 to exit: ");
 		scanf("%d", &choice);
 	
 		switch(choice)
@@ -44,6 +44,11 @@ int main()
 					display();
 					break;				
 				}
+			case 4:
+				{
+					printf("\n\nTerminating...");
+					break;
+				}
 			default:
 				{
 					printf("\n\nInvalid choice. Terminating...");
@@ -51,7 +56,7 @@ int main()
 				}		
 		}
 		
-	}while(c == 'y' || c == 'Y');
+	}while(choice == 1 || choice == 2 || choice == 3);
 	
 	return 0;
 }
@@ -61,7 +66,7 @@ void push()
 {
 	int n;
 	
-	if(top == MAX - 1)
+	if(top == (MAX - 1))
 	{
 		printf("stack overflow");
 	}
@@ -73,7 +78,7 @@ void push()
 		top++;
 		stk[top] = n;
 		
-		printf("Value entered.");
+		printf("Value entered.\n\n\n");
 	}
 	
 	return;
@@ -91,12 +96,12 @@ void pop()
 	else
 	{
 		top--;
-		for(i = top; i < MAX - 1; i++)
-		{
-			stk[i] = stk[i + 1];
-		}
+		//for(i = top; i <= MAX - 1; i++)
+		//{
+		//	stk[i] = stk[i + 1];
+		//}
 		
-		printf("Value removed.");
+		printf("Value removed.\n\n\n");
 	}
 	
 	return;
@@ -107,19 +112,14 @@ void display()
 {
 	int i;
 	
-	if(top == -1)
-	{
-		printf("empty stack");
-	}
-	else
-	{
-		printf("available stack: \n");
-		for(i = 0; i <= top; i++);
-		{
-			printf("%d ", stk[i]);
-		}
+	printf("Available stack: \n");
 		
+	for(i = top; i >= 0; i--);
+	{
+		printf("%d\t", stk[i]);
 	}
+	
+	printf("\n\n\n");
 	
 	return;
 }

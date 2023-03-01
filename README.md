@@ -7,9 +7,9 @@
 
 **Program 2** - Arrays
             Getting started with Arrays. Programs for the following tasks:
-            1. printing the first array element along with the rest of the array using a for loop
-            2. taking an array index as input from the user and printing the element at that index in that array
-            3. storing and printing a string, which is essentially a character array, and then printing array elements at even indexes
+1. printing the first array element along with the rest of the array using a for loop
+2. taking an array index as input from the user and printing the element at that index in that array
+3. storing and printing a string, which is essentially a character array, and then printing array elements at even indexes
             
       
 **Program 3** - Structures
